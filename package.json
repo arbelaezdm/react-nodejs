@@ -1,0 +1,33 @@
+{
+  "name": "react-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "sass-loader": "^13.0.2",
+    "styles-loader": "^4.0.1",
+    "webpack": "^5.74.0",
+    "webpack-dev-middleware": "^5.3.3",
+    "webpack-livereload-plugin": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+import htmlWebpackPlugin from 'html-webpack-plugin'
